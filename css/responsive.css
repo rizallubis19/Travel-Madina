@@ -1,0 +1,72 @@
+/* responsive */
+/* Layar Tablet & HP */
+@media (max-width: 991.98px) {
+  .layar-dalam {
+    width: 90%;
+  }
+  /* navigasi */
+  nav .menu ul {
+    display: none;
+    margin-top: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  nav .menu ul li {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    background-color: #c86b85;
+    line-height: 40px;
+    transition: 0.5s;
+  }
+  nav .menu ul li a {
+    color: #fff;
+  }
+  /* tombol */
+  .tombol-menu {
+    display: flex;
+  }
+  /* header */
+  header .intro h3 {
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+  /* Gallery */
+  section#gallery,
+  section.quote {
+    display: none;
+  }
+  /* fasilitas */
+  .fas-col img {
+    width: 200px;
+    height: 185px;
+  }
+  /* blog */
+  .blog .area {
+    display: block;
+  }
+  .blog div.area div {
+    width: 100%;
+  }
+  .blog .area .gambar {
+    border-radius: 5px 5px 0px 0px;
+    height: 200px;
+  }
+  .support {
+    display: block;
+  }
+  .support div {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* testimonials */
+  .testimonials-col img {
+    margin-left: 0px;
+    margin-right: 15px;
+  }
+}
